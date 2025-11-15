@@ -1,6 +1,6 @@
 +++
 date = '2025-11-15T18:07:23+08:00'
-draft = true
+draft = false
 title = '关于手机adb调试'
 +++
 
