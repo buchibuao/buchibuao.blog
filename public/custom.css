@@ -1,0 +1,10 @@
+/* 给整个页面body设置背景图 */
+body {
+  /* 核心：路径必须以 / 开头（代表网站根目录），公网通用 */
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat; /* 禁止图片重复平铺 */
+  background-size: cover; /* 图片自适应屏幕大小（覆盖全屏） */
+  background-position: center; /* 图片居中显示 */
+  background-attachment: fixed; /* 滚动页面时背景图固定 */
+  background-color: #f5f5f5; /* 图片加载失败时的备用背景色 */
+}
