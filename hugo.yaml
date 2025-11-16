@@ -210,15 +210,21 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/buchibuao?tab=repositories
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://x.com/buchibuao
           params:
               icon: brand-twitter
+
+        - identifier: bilibili
+          name: bilibili
+          url: https://space.bilibili.com/1178227438
+          params:
+              icon: brand-bilibili
 
 related:
     includeNewer: true

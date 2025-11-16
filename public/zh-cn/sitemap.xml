@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-14T20:12:08+08:00</lastmod>
+    <lastmod>2025-11-15T18:48:32+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,6 +16,18 @@
                 />
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-11-15T18:48:32+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2025-11-15T18:48:32+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2025-11-15T18:45:09+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E6%89%8B%E6%9C%BAadb%E8%B0%83%E8%AF%95/</loc>
+    <lastmod>2025-11-15T18:07:23+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/myfistblog/</loc>
     <lastmod>2025-11-14T20:12:08+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
