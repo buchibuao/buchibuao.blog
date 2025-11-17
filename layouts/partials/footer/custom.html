@@ -1,3 +1,15 @@
+<<<<<<< HEAD
 <!-- 自动指纹+压缩，部署后路径更稳定 -->
 {{ $sakura := resources.Get "background/sakura.js" | resources.Minify | resources.Fingerprint "sha256" }}
 <script src="{{ $sakura.Permalink }}" integrity="{{ $sakura.Data.Integrity }}"></script>
+=======
+<style>
+  body {
+    background: url({{ (resources.Get "background/3123123.png").Permalink }}) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+</style>
+<script src={{ (resources.Get "background/sakura.js").Permalink }}></script>
+
+>>>>>>> ce1b25a542698dba54cf67930739040b4e0736f1

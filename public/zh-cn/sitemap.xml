@@ -26,6 +26,12 @@
   </url><url>
     <loc>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E6%89%8B%E6%9C%BAadb%E8%B0%83%E8%AF%95/</loc>
     <lastmod>2025-11-15T18:07:23+08:00</lastmod>
+<<<<<<< HEAD
+=======
+  </url><url>
+    <loc>http://localhost:1313/p/myfistblog/</loc>
+    <lastmod>2025-11-14T20:12:08+08:00</lastmod>
+>>>>>>> ce1b25a542698dba54cf67930739040b4e0736f1
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>

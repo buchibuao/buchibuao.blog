@@ -143,6 +143,17 @@
 </description>
         </item>
         <item>
+<<<<<<< HEAD
+=======
+        <title>MyFistBlog</title>
+        <link>http://localhost:1313/p/myfistblog/</link>
+        <pubDate>Fri, 14 Nov 2025 20:12:08 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/myfistblog/</guid>
+        <description></description>
+        </item>
+        <item>
+>>>>>>> ce1b25a542698dba54cf67930739040b4e0736f1
         <title>Chinese Test</title>
         <link>http://localhost:1313/p/test-chinese/</link>
         <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
