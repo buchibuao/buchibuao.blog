@@ -1,4 +1,4 @@
-baseurl: https://example.com/
+baseurl: https://zhongqing-blog.pages.dev/
 languageCode: en-us
 theme: hugo-theme-stack
 title: Example Site
@@ -50,6 +50,7 @@ params:
     featuredImageField: image
     rssFullContent: true
     favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    customCSS: ["css/custom.css"]
 
     footer:
         since: 2025
@@ -210,15 +211,21 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/buchibuao?tab=repositories
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://x.com/buchibuao
           params:
               icon: brand-twitter
+
+        - identifier: bilibili
+          name: bilibili
+          url: https://space.bilibili.com/1178227438
+          params:
+              icon: brand-bilibili
 
 related:
     includeNewer: true
@@ -260,3 +267,5 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
+
+

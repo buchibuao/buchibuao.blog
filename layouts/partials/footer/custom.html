@@ -1,0 +1,3 @@
+<!-- 自动指纹+压缩，部署后路径更稳定 -->
+{{ $sakura := resources.Get "background/sakura.js" | resources.Minify | resources.Fingerprint "sha256" }}
+<script src="{{ $sakura.Permalink }}" integrity="{{ $sakura.Data.Integrity }}"></script>
