@@ -268,4 +268,14 @@ markup:
         lineNumbersInTable: true
         tabWidth: 4
 
+# 更新时间：优先读取git时间 -> git时间不存在，就读取本地文件修改时间
+frontmatter:
+  lastmod:
+    - :git
+    - :fileModTime
+
+# 允许获取Git信息		
+enableGitInfo: true
+
+
 

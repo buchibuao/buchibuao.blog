@@ -1,0 +1,23 @@
+<script src={{ (resources.Get "background/sakura.js").Permalink }}></script>
+
+<!-- vercount的脚本；若用不蒜子，则更换成不蒜子的脚本就好 -->
+<script defer src="https://cn.vercount.one/js"></script>
+
+<script>
+    function showHideView() {
+        // 判断是否存在vercount标签
+        let viewCounts = document.querySelectorAll("#viewCount");
+        if (viewCounts) {
+            // 判断是否为文章页
+            let article =  document.querySelector(".article-page");
+            if (!article) {
+                viewCounts.forEach(ele => {
+                    ele.style.display = 'none';
+                });
+            }
+        }
+    }
+    
+    showHideView();
+</script>
+
